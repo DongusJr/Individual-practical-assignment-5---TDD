@@ -8,3 +8,6 @@ from sample import fizz_buzz
 
 def test_returns_number_if_no_requirements_met():
     assert fizz_buzz(2) == 2
+
+def test_returns_Fizz_if_number_divisable_by_three():
+    assert fizz_buzz(9) == "Fizz"
