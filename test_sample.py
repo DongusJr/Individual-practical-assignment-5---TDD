@@ -14,3 +14,6 @@ def test_returns_Fizz_if_number_divisable_by_three():
 
 def test_returns_Buzz_if_number_divisable_by_five():
     assert fizz_buzz(10) == "Buzz"
+
+def test_returns_FizzBuzz_if_number_divisable_by_three_and_five():
+    assert fizz_buzz(15) == "FizzBuzz"
