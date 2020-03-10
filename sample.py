@@ -1,2 +1,3 @@
 def fizz_buzz(number):
-    pass
+    fizz_buzz_str = ""
+    return fizz_buzz_str if fizz_buzz_str != "" else number
